@@ -1,0 +1,38 @@
+Console Class
+	There are various methods available in the console class.
+	Console.Write("Text hee") - Prints and keeps the cursor on the same line.
+	Console.WriteLine("Text here") - Prints and puts the cursor in the next line.
+	Console.Read() - Takes a single input of type string and it returns the ASCII value of that input.
+	Console.ReadLine() - Takes a string or integer input and returns it as the output value
+	Console.ReadKey() - Takes a single input of type string and it returns the key info.
+	
+	Examples
+	1.	
+		static void Main(string []args){
+			Console.WriteLine("Hello Welcome"); // prints the text and jumps to the new line
+			Console.Write("Hello"); //prints the text in the same line
+			Console.Write("Welcome");
+			Console.ReadKey();			
+		}
+	O/P 
+	Hello Welcome
+	HelloWelcome
+	
+	2. 
+		static void Main(string []args){
+			Console.Write("Enter a string and press enter"); 
+			string readInput = Console.ReadLine();
+			Console.WriteLine("You have entered {0}:", readInput); 
+			
+			Console.Write("Enter a string and press enter");
+			int asciiValue = Console.Read();
+			Console.Write("ASCII value is {0}:, asciiValue");
+			Console.ReadKey();
+		}
+	
+	Changing Console color
+	Console.ForegroundColor = ConsoleColor.DarkYellow; //Yellow Text 
+	Console.BackgroundColor = ConsoleColor.DarkGray;	//Background
+	
+	Clearing Console
+	Console.clear();

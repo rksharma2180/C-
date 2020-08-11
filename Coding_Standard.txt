@@ -1,0 +1,45 @@
+Coding standards are set of guidelines, best practic, programming styles and
+     convetions that developers follow when writing source code for a project.
+
+        Reasonable variable name - While declaring a variable the developer has to give the variable 
+           a proper name. The name of the variable should be based on its use.
+
+        Proper function name - A function should be given a name based on the functionality it does
+            in the code program.
+     
+        Comments -  Use comments outside the function to state what this function does.
+                    Write comments inside function about its logic.
+        
+        Developer Notes - On the top of the class the developer can mention the use of a class, date
+            of creation and basic information.
+                
+        Different styles of commenting
+        Single-line comments - //comment text
+        Multiline comments - /*
+                                Multiline comments  
+                              */
+        XML Documentation Comments - /// <summary>
+         ///</summary>   
+         
+Naming Conventions
+        For class name we should pascal casing meaning class ProgramFirst and nouns 
+        Same thing goes with method names CalculatePercentage
+        CamelCase for arguments Main(String argsOfString) same goes for local variables
+        Do not use number at the start of the variable name
+        use userControl insteed of userCtrl
+        
+        Avoid
+        String myName;
+        Int32 age;
+        Boolean isSaved;
+        
+        Correct
+        string myName;
+        int age;
+        bool isSaved;
+        
+More on 
+https://www.dofactory.com/reference/csharp-coding-standards
+        
+        
+        

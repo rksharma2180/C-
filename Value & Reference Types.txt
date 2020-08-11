@@ -1,0 +1,12 @@
+Value Vs Reference Types
+	Value Type -  As the name suggests is a data type which when declared and assigned a value, holds the value directly on its own memory space.
+		The value type uses a heap to store the value.
+		value types data types are int, float, long, double, char, bool, decimal double etc.
+	
+	Reference Type in detail - Reference type a variable type which instead of storing the value in memory directly, stores the memory location
+		of the actual data.
+		The variable here stores the memory reference of the data and not the data directly.
+		Reference data types are strings, Array etc
+		When we copy this reference type of the data type it will just copy the memory address of the data so we will then have two variable
+		pointing to the same data.
+		
