@@ -1,0 +1,22 @@
+try catch finally
+	try {
+
+	} catch(Exception) { //works without reference variable FormatException, ArgumentNullException, DivideByZeroException, OverflowException
+
+	}
+
+	try {
+
+	} catch(Exception) { //works without reference variable FormatException
+
+	} catch(OverflowException) { //numer was too short or long for int32
+
+	}
+
+	try {
+
+	} catch(Exception) { //works without reference variable FormatException,ArgumentNullException
+
+	} finally {
+	
+	}
