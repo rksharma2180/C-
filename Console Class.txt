@@ -1,5 +1,6 @@
-Console Class
+Console Class - available in system namespace
 	There are various methods available in the console class.
+	
 	Console.Write("Text hee") - Prints and keeps the cursor on the same line.
 	Console.WriteLine("Text here") - Prints and puts the cursor in the next line.
 	Console.Read() - Takes a single input of type string and it returns the ASCII value of that input.
@@ -32,7 +33,6 @@ Console Class
 	
 	Changing Console color
 	Console.ForegroundColor = ConsoleColor.DarkYellow; //Yellow Text 
-	Console.BackgroundColor = ConsoleColor.DarkGray;	//Background
-	
+	Console.BackgroundColor = ConsoleColor.DarkGray;	//Background	
 	Clearing Console
 	Console.clear();

@@ -18,8 +18,10 @@ Coding standards are set of guidelines, best practic, programming styles and
         Multiline comments - /*
                                 Multiline comments  
                               */
-        XML Documentation Comments - /// <summary>
-         ///</summary>   
+        XML Documentation Comments - 
+        /// <summary>
+                comments
+        ///</summary>   
          
 Naming Conventions
         For class name we should pascal casing meaning class ProgramFirst and nouns 

@@ -1,0 +1,5 @@
+static void main(String[] args){
+	string input = Console.ReadLine();
+	Console.WriteLine(input);
+	Console.Read();
+}

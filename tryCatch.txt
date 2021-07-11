@@ -2,7 +2,7 @@ try catch finally
 	try {
 
 	} catch(Exception) { //works without reference variable FormatException, ArgumentNullException, DivideByZeroException, OverflowException
-
+		throw;
 	}
 
 	try {
@@ -20,3 +20,5 @@ try catch finally
 	} finally {
 	
 	}
+	
+NOte: Check the hierarchy of exceptions and the order to use

@@ -1,0 +1,25 @@
+A method is code block that contains a series of statements. A program causes the statements to be 
+executed by calling the method and specifying any required method arguments. In C# every executed instruction
+is performed in the context of a method. The main method is the entry point for every C# applicatioon and 
+it is called by the common language runtime(CLR) when the program is started.
+
+Method Syntax
+<Access Specifiers> <Return Type> <Method Name> (Parameter list) 
+{
+	//Method body
+}
+
+Access Specifiers - The access specifiers determines the visibility of a variable or a method from another class.
+
+Return Type - A method may return a value. The return type is the data type of the value the method returns. 
+				If the method does not return then the return type is void.
+
+Method Name - Method name is unique identifier and it is case sensitive. It cannot be same as any other 
+				Identifier in the class.
+
+Parameter List - Enclosed between parentheses, the parameters are used to pass and receive data from a 
+				Method. The parameter list refers to the type, order, and number of the parameters of a 
+				Method. Parameters are optional; that is, a method may contain no parameters.
+
+Method Body - This contains the set of instructioin needed to complete the required activity.
+

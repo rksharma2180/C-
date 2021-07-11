@@ -10,13 +10,15 @@ namespace Conversion
             double d = 13.37;
             int myInt;
 
+            //myInt = d;//Can not be converted implicitly
+
             //cast double into int - explicit conversion
-            myInt = (int)d;
+            myInt = (int)d; //higher type value to lower type value
             Console.WriteLine(myInt);
 
             //Implicit conversions
-            int num = 123456789;
-            long bigNum = num;
+            int num = 123456789; //smaller type value
+            long bigNum = num; //higher type value
             Console.WriteLine(bigNum);
 
             float myFloat = 13.39f;

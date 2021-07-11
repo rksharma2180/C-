@@ -1,0 +1,17 @@
+Operators
+static void main(String []args){
+	string numberAsString = "128";
+	int parsedValue;
+	bool successd = int.TryParse(numberAsString, parsedValue);
+}
+
+int num1 = 5;
+int num2 = 3;
+int num3;
+
+//unary operator
+num3 = -num1;//Multiplies with -1
+Console.WriteLine("Num3 is {0}", num3);
+
+bool isSunny = true;
+Console.WriteLine("is it sunny? {0}", !isSunny);
