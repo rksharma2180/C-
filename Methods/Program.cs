@@ -7,7 +7,12 @@ namespace Methods
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Main method");
+            WriteSomething();
+        }
+
+        static void WriteSomething() {
+            Console.WriteLine("I am called from method");
         }
     }
 }
